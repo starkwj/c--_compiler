@@ -1,0 +1,20 @@
+int sum(int x, int y)
+{
+	return x + y;
+}
+
+int main()
+{
+	int a = 2;
+	int b;
+	if (a > 1)
+	{
+		b = a++;
+	}
+	else
+	{
+		b = ++a;
+	}
+	a = sum(a, b);
+	return 1;
+}

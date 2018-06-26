@@ -1,0 +1,29 @@
+float sum(float x, float y)
+{
+	int x;
+	{
+		int y;
+	}
+	z = 4;
+
+	return 3;
+}
+int x;
+
+int main()
+{
+	int a = 2 + 3.0;
+	char b = 1;
+	float c = sum(1, 2);
+	int a = 5;
+	if (a) {
+		--a;
+	}
+	c++;
+	3 = a;	
+	d = c;
+	avg(20, 30);
+	c();
+	return 0;
+}
+

@@ -1,0 +1,12 @@
+int fun(int a)
+{
+	return a;
+}
+int main()
+{
+	// test
+	/* ttt */
+	int a = 2;
+	a = -5 * a;
+	return 0;
+}

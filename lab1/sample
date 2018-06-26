@@ -1,0 +1,22 @@
+int a = 5;
+float fun()
+{
+	return 3.0f;
+}
+
+int main()
+{
+	a = 1;
+	a = -a * 2;
+	// this is a comment
+	/* another comment */
+	if (a < 1)
+		a++;
+	if (a > 1)
+		a--;
+	else
+		print(a);
+
+	return 0;
+}
+

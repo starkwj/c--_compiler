@@ -1,0 +1,23 @@
+FUNCTION multi :
+PARAM v1
+PARAM v2
+t1 := v1 * v2
+RETURN t1
+FUNCTION main :
+v3 := #10
+v4 := #1
+v5 := #1
+LABEL label1 :
+IF v5 <= #10 GOTO label2
+GOTO label3
+LABEL label2 :
+ARG v5
+ARG v4
+t2 := CALL multi
+v4 := t2
+WRITE v4
+v5 := v5 + #1
+GOTO label1
+LABEL label3 :
+t3 := #0
+RETURN t3

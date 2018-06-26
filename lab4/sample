@@ -1,0 +1,18 @@
+int multi(int x, int y)
+{
+	return x * y;
+}
+
+int main()
+{
+	int a = 10;
+	int i;
+	int c = 1;
+	for (i = 1; i <= 10; i++)
+	{
+		c = multi(i, c);
+		print(c);
+	}
+	return 0;
+}
+

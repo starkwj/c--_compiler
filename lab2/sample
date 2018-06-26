@@ -1,0 +1,28 @@
+int a;
+float b = 3.0;
+void testfun(bool efg)
+{
+	int c;
+	char d;
+}
+int main()
+{
+	int d = 4;
+	float b = 2.0;
+	if (true)
+	{
+		int a;
+	}
+
+	while (false)
+	{
+		int l;
+		while (true) {
+			int k;
+		}
+	}
+
+
+	return 0;
+}
+
